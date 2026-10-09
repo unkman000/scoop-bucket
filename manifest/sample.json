@@ -1,0 +1,11 @@
+{
+    "version": "1.0.0",
+    "description": "Sample application",
+    "homepage": "https://example.com",
+    "license": "MIT",
+    "url": "https://example.com/sample-1.0.0.zip",
+    "hash": "sha256:TODO",
+    "bin": [
+        "sample.exe"
+    ]
+}
