@@ -5,12 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/Niko1221/Strata/releases/download/v0.1.41/strata-windows-x64-hip.zip",
     "hash": "sha256:e8701d1d183f0f84742f6b9dcde7c5589cfd86271cdec70646f88cf441ee6716",
-    "bin": [
-        [
-            "strata.exe",
-            "strata-hip"
-        ]
-    ],
+    "bin": "strata.exe",
     "shortcuts": [
         [
             "strata.exe",
