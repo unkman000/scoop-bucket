@@ -3,12 +3,11 @@
     "description": "Foundry Local CLI - portable (extracted from msix)",
     "homepage": "https://github.com/microsoft/foundry-local",
     "license": "Proprietary",
-    "url": "https://github.com/microsoft/foundry-local/releases/download/cli-preview-$version/foundry-$version-win-x64.msix",
+    "url": "https://github.com/microsoft/foundry-local/releases/download/cli-preview-0.11.0/foundry-0.11.0-win-x64.msix",
     "hash": "sha256:6624a121f3d495c8a0d55b1a6716cfe52c8a8dc05097c864e5933524881ca071",
-    "extract_to": "foundry",
     "installer": {
         "script": [
-            "$msix = \"$dir\\foundry-$version-win-x64.msix\"",
+            "$msix = \"$dir\\foundry-0.11.0-win-x64.msix\"",
             "Expand-Archive -Path $msix -DestinationPath \"$dir\\foundry\" -Force",
             "Get-ChildItem \"$dir\\foundry\\*\" -File | ForEach-Object { Copy-Item $_.FullName -Destination $dir -Force }",
             "Remove-Item \"$dir\\foundry\" -Recurse -Force",
