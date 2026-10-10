@@ -1,0 +1,31 @@
+{
+    "version": "0.11.0",
+    "description": "Foundry Local CLI - portable extraction from msix (exe + DLLs)",
+    "homepage": "https://github.com/microsoft/foundry-local",
+    "license": "Proprietary",
+    "url": "https://github.com/microsoft/foundry-local/releases/download/cli-preview-0.11.0/foundry-0.11.0-win-x64.msix",
+    "hash": "sha256:e5ea3a471a47dcf078ef9ceb3f2abe61bfa6c73e9374578e5930192b5ec7a67a",
+    "extract_dir": "foundry-msix",
+    "installer": {
+        "script": [
+            "$msix = \"$dir\\foundry-0.11.0-win-x64.msix\"",
+            "Expand-Archive -Path $msix -DestinationPath \"$dir\\extracted\" -Force",
+            "Get-ChildItem \"$dir\\extracted\\*\" -File | ForEach-Object { Copy-Item $_.FullName -Destination $dir -Force }",
+            "Remove-Item \"$dir\\extracted\" -Recurse -Force",
+            "Remove-Item $msix -Force"
+        ]
+    },
+    "bin": "foundry.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/microsoft/foundry-local/releases",
+        "jsonpath": "$[?(@.tag_name =~ /cli-preview-.*/)].tag_name",
+        "regex": "cli-preview-([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/microsoft/foundry-local/releases/download/cli-preview-$version/foundry-$version-win-x64.msix",
+        "hash": {
+            "url": "https://github.com/microsoft/foundry-local/releases/download/cli-preview-$version/foundry-$version-win-x64.msix",
+            "mode": "download"
+        }
+    }
+}
