@@ -1,0 +1,22 @@
+{
+    "version": "2.1.0",
+    "description": "Foundry Local SDK - native libraries for on-device AI inference (Windows x64)",
+    "homepage": "https://github.com/microsoft/foundry-local",
+    "license": "MIT",
+    "url": "https://github.com/microsoft/foundry-local/releases/download/v$version/foundry-local-win-x64.zip",
+    "hash": "sha256:0147d8741643128e38bf895e576101ad5da6a60a4ebbf68baf004548000fe95e",
+    "env_add_path": "lib",
+    "env_set": {
+        "FOUNDRY_LOCAL_HOME": "$dir"
+    },
+    "checkver": {
+        "github": "https://github.com/microsoft/foundry-local"
+    },
+    "autoupdate": {
+        "url": "https://github.com/microsoft/foundry-local/releases/download/v$version/foundry-local-win-x64.zip",
+        "hash": {
+            "url": "https://github.com/microsoft/foundry-local/releases/download/v$version/foundry-local-win-x64.zip",
+            "mode": "download"
+        }
+    }
+}

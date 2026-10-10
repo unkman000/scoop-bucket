@@ -1,0 +1,20 @@
+{
+    "version": "0.2.6",
+    "description": "Magnitude Service - background service for Magnitude inference engine",
+    "homepage": "https://github.com/magnitudedev/magnitude",
+    "license": "Apache-2.0",
+    "url": "https://github.com/magnitudedev/magnitude/releases/download/%40magnitudedev/cli%400.2.6/magnitude-acn-windows-x64-msvc.tar.gz",
+    "hash": "sha256:3b13ba19bd4ba163b348aaa0baac60701d40516a10614c474d388f5b2e012ac1",
+    "bin": "magnitude-service.exe",
+    "checkver": {
+        "github": "https://github.com/magnitudedev/magnitude",
+        "regex": "@magnitudedev/cli@([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/magnitudedev/magnitude/releases/download/%40magnitudedev/cli%40$version/magnitude-acn-windows-x64-msvc.tar.gz",
+        "hash": {
+            "url": "https://github.com/magnitudedev/magnitude/releases/download/%40magnitudedev/cli%40$version/magnitude-acn-windows-x64-msvc.tar.gz",
+            "mode": "download"
+        }
+    }
+}

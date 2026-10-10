@@ -1,0 +1,25 @@
+{
+    "version": "0.1.41",
+    "description": "Strata - desktop environment for local AI model orchestration (CUDA 12)",
+    "homepage": "https://github.com/Niko1221/Strata",
+    "license": "MIT",
+    "url": "https://github.com/Niko1221/Strata/releases/download/v$version/strata-windows-x64-cuda12.zip",
+    "hash": "sha256:646ded0105aa5213a75e16621d559670d09dac26b5c720c9fd651ca83bdf14ec",
+    "bin": "strata.exe",
+    "shortcuts": [
+        [
+            "strata.exe",
+            "Strata (CUDA 12)"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Niko1221/Strata"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Niko1221/Strata/releases/download/v$version/strata-windows-x64-cuda12.zip",
+        "hash": {
+            "url": "https://github.com/Niko1221/Strata/releases/download/v$version/strata-windows-x64-cuda12.zip",
+            "mode": "download"
+        }
+    }
+}

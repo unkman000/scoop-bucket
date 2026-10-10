@@ -1,0 +1,25 @@
+{
+    "version": "0.1.41",
+    "description": "Strata - desktop environment for local AI model orchestration (AMD HIP)",
+    "homepage": "https://github.com/Niko1221/Strata",
+    "license": "MIT",
+    "url": "https://github.com/Niko1221/Strata/releases/download/v$version/strata-windows-x64-hip.zip",
+    "hash": "sha256:e8701d1d183f0f84742f6b9dcde7c5589cfd86271cdec70646f88cf441ee6716",
+    "bin": "strata.exe",
+    "shortcuts": [
+        [
+            "strata.exe",
+            "Strata (AMD HIP)"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Niko1221/Strata"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Niko1221/Strata/releases/download/v$version/strata-windows-x64-hip.zip",
+        "hash": {
+            "url": "https://github.com/Niko1221/Strata/releases/download/v$version/strata-windows-x64-hip.zip",
+            "mode": "download"
+        }
+    }
+}
