@@ -5,7 +5,12 @@
     "license": "MIT",
     "url": "https://github.com/Niko1221/Strata/releases/download/v0.1.41/strata-windows-x64-cuda12.zip",
     "hash": "sha256:646ded0105aa5213a75e16621d559670d09dac26b5c720c9fd651ca83bdf14ec",
-    "bin": "strata.exe",
+    "bin": [
+        [
+            "strata.exe",
+            "strata-cuda"
+        ]
+    ],
     "shortcuts": [
         [
             "strata.exe",
