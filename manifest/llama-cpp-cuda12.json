@@ -5,7 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10777-e3de715/llama-prism-b10777-e3de715-bin-win-cuda-12.4-x64.zip",
     "hash": "sha256:fa5874a1412e251a6efb13f289e97bacbbb4e7fc6714c1836b4fc6c1dc863462",
-    "bin": [["llama.exe", "llama-cuda12.exe"]],
+    "bin": [["llama.exe", "llama-cuda12"]],
     "depends": "llama-cpp-cudart12",
     "checkver": {
         "github": "https://github.com/PrismML-Eng/llama.cpp"
