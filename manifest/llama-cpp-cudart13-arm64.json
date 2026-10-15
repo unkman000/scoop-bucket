@@ -1,0 +1,20 @@
+{
+    "version": "prism-b10777-e3de715",
+    "description": "CUDA 13.4 runtime DLLs (arm64) for llama.cpp CUDA builds",
+    "homepage": "https://github.com/PrismML-Eng/llama.cpp",
+    "license": "NVIDIA CUDA Toolkit EULA",
+    "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10777-e3de715/cudart-llama-bin-win-cuda-13.4-arm64.zip",
+    "hash": "sha256:5a40dc7c5fa3d0a80ceeba4f16f9e8d25d87bcf1399c9233588953c43436c33c",
+    "env_add_path": ".",
+    "checkver": {
+        "github": "https://github.com/PrismML-Eng/llama.cpp"
+    },
+    "autoupdate": {
+        "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/$version/cudart-llama-bin-win-cuda-13.4-arm64.zip",
+        "hash": {
+            "url": "https://api.github.com/repos/PrismML-Eng/llama.cpp/releases/tags/$version",
+            "jsonpath": "$.assets[?(@.name =~ /cudart-llama-bin-win-cuda-13\\.4-arm64\\.zip/)].digest",
+            "regex": "sha256:([a-f0-9]{64})"
+        }
+    }
+}
