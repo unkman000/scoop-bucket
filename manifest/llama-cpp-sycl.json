@@ -5,7 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10777-e3de715/llama-prism-b10777-e3de715-bin-win-sycl-x64.zip",
     "hash": "sha256:96b99f18a9ad70c5d50feb4d07b7d4cabf901ad6364e22710b837e848c1183bd",
-    "bin": "llama.exe",
+    "bin": [["llama.exe", "llama-sycl.exe"]],
     "checkver": {
         "github": "https://github.com/PrismML-Eng/llama.cpp"
     },
