@@ -1,10 +1,10 @@
 {
-    "version": "0.2.8",
+    "version": "0.2.9",
     "description": "Magnitude ACN - Agent Compute Node (inference engine backend service)",
     "homepage": "https://github.com/magnitudedev/magnitude",
     "license": "Apache-2.0",
-    "url": "https://github.com/magnitudedev/magnitude/releases/download/%40magnitudedev/cli%400.2.8/magnitude-acn-windows-x64-msvc.tar.gz",
-    "hash": "sha256:c44f3fd331474f7a0cf58c3e784e8dbb8a0501efad45044c1f91c3394151a5df",
+    "url": "https://github.com/magnitudedev/magnitude/releases/download/%40magnitudedev/cli%400.2.9/magnitude-acn-windows-x64-msvc.tar.gz",
+    "hash": "47e70921b05515b00f88158ec6b8e0f5f877e99dedd026e17b590af5f7fc2fb1",
     "bin": "bin/magnitude-service.exe",
     "checkver": {
         "url": "https://api.github.com/repos/magnitudedev/magnitude/releases/latest",

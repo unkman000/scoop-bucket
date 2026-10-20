@@ -1,10 +1,10 @@
 {
-    "version": "prism-b10777-e3de715",
+    "version": "prism-b10787-73bfe6c",
     "description": "llama.cpp - LLM inference in C/C++ (CUDA 12.4, x64)",
     "homepage": "https://github.com/PrismML-Eng/llama.cpp",
     "license": "MIT",
-    "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10777-e3de715/llama-prism-b10777-e3de715-bin-win-cuda-12.4-x64.zip",
-    "hash": "sha256:fa5874a1412e251a6efb13f289e97bacbbb4e7fc6714c1836b4fc6c1dc863462",
+    "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10787-73bfe6c/llama-prism-b10787-73bfe6c-bin-win-cuda-12.4-x64.zip",
+    "hash": "64ca6810aae0e6bbb28d22f888bd009b9bdd0c24c5af8a6a7490b3eaf75ccd57",
     "bin": [
         "llama-batched-bench.exe",
         "llama-bench.exe",
@@ -27,14 +27,10 @@
     ],
     "depends": "llama-cpp-cudart12",
     "checkver": {
-        "github": "https://github.com/PrismML-Eng/llama.cpp"
+        "github": "https://api.github.com/repos/PrismML-Eng/llama.cpp/releases/latest",
+        "regex": "(prism-b[\\d]+-[0-9a-f]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/$version/llama-$version-bin-win-cuda-12.4-x64.zip",
-        "hash": {
-            "url": "https://api.github.com/repos/PrismML-Eng/llama.cpp/releases/tags/$version",
-            "jsonpath": "$.assets[?(@.name =~ /llama-$version-bin-win-cuda-12\\.4-x64\\.zip/)].digest",
-            "regex": "sha256:([a-f0-9]{64})"
-        }
+        "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/$version/llama-$version-bin-win-cuda-12.4-x64.zip"
     }
 }

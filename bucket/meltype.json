@@ -1,10 +1,10 @@
 {
-    "version": "1.2.1",
+    "version": "1.3.0",
     "description": "Meltype - Japanese input method (IME) for Windows",
     "homepage": "https://github.com/yksr-melt/Meltype",
     "license": "MIT",
-    "url": "https://github.com/yksr-melt/Meltype/releases/download/v1.2.1/Meltype-1.2.1-windows.zip",
-    "hash": "sha256:6e644a2026eaa7566423e8e5c343304e4b7bf34b379769e6c5931a70679c75a5",
+    "url": "https://github.com/yksr-melt/Meltype/releases/download/v1.3.0/Meltype-1.3.0-windows.zip",
+    "hash": "0f3710767333bf11852483c2180ebe73cfc8e9f6727e50e6fca74119f8c6744f",
     "bin": "app/Meltype.exe",
     "shortcuts": [
         [

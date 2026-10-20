@@ -1,10 +1,10 @@
 {
-    "version": "prism-b10777-e3de715",
+    "version": "prism-b10787-73bfe6c",
     "description": "llama.cpp - LLM inference in C/C++ (HIP Radeon, x64)",
     "homepage": "https://github.com/PrismML-Eng/llama.cpp",
     "license": "MIT",
-    "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10777-e3de715/llama-prism-b10777-e3de715-bin-win-hip-radeon-x64.zip",
-    "hash": "sha256:371921702ccc41ff235836ea78e575b0a054fbfaf4711d1976a79577e982d846",
+    "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10787-73bfe6c/llama-prism-b10787-73bfe6c-bin-win-hip-radeon-x64.zip",
+    "hash": "0e9174d8cb9854c15ebb8d1f6cfe680f39ec488b4fbc673ae07f6a7f08f51d0e",
     "bin": [
         "llama-batched-bench.exe",
         "llama-bench.exe",
@@ -26,14 +26,10 @@
         "llama.exe"
     ],
     "checkver": {
-        "github": "https://github.com/PrismML-Eng/llama.cpp"
+        "github": "https://api.github.com/repos/PrismML-Eng/llama.cpp/releases/latest",
+        "regex": "(prism-b[\\d]+-[0-9a-f]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/$version/llama-$version-bin-win-hip-radeon-x64.zip",
-        "hash": {
-            "url": "https://api.github.com/repos/PrismML-Eng/llama.cpp/releases/tags/$version",
-            "jsonpath": "$.assets[?(@.name =~ /llama-$version-bin-win-hip-radeon-x64\\.zip/)].digest",
-            "regex": "sha256:([a-f0-9]{64})"
-        }
+        "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/$version/llama-$version-bin-win-hip-radeon-x64.zip"
     }
 }
