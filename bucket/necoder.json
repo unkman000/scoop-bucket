@@ -5,7 +5,10 @@
     "license": "AGPL-3.0-only",
     "url": "https://github.com/iKora128/necoder/releases/download/v0.1.31/necoder-windows-x64.zip",
     "hash": "sha256:e7a6bed7bf4c0ef586c6552bf879be112fcae37fd8be369724bc7d6dd7c299be",
-    "bin": "necoder.exe",
+    "bin": ["necoder.exe", ["ne.cmd", "ne"]],
+    "shortcuts": [
+        ["necoder.exe", "necoder"]
+    ],
     "checkver": {
         "github": "https://api.github.com/repos/iKora128/necoder/releases/latest"
     },
