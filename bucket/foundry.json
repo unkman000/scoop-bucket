@@ -1,10 +1,10 @@
 {
-    "version": "0.11.0",
+    "version": "0.12.0",
     "description": "Foundry Local CLI - portable (extracted from msix)",
     "homepage": "https://github.com/microsoft/foundry-local",
     "license": "Proprietary",
-    "url": "https://github.com/microsoft/foundry-local/releases/download/cli-preview-0.11.0/foundry-0.11.0-win-x64.msix",
-    "hash": "sha256:6624a121f3d495c8a0d55b1a6716cfe52c8a8dc05097c864e5933524881ca071",
+    "url": "https://github.com/microsoft/foundry-local/releases/download/cli-preview-0.12.0/foundry-0.12.0-win-x64.msix",
+    "hash": "85edb1f23060503464e94e5c10f888572ba78dc4a978c35bed86392469678623",
     "installer": {
         "script": [
             "$msix = \"$dir\\foundry-0.11.0-win-x64.msix\"",
