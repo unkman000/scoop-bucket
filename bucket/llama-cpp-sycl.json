@@ -1,10 +1,10 @@
 {
-    "version": "prism-b10809-b3ebc47",
+    "version": "prism-b10819-909f0ca",
     "description": "llama.cpp - LLM inference in C/C++ (SYCL, x64)",
     "homepage": "https://github.com/PrismML-Eng/llama.cpp",
     "license": "MIT",
-    "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10809-b3ebc47/llama-prism-b10809-b3ebc47-bin-win-sycl-x64.zip",
-    "hash": "1510666820180247af3dcb880801d2f9e013436fbe2fad583913f3fddbb07448",
+    "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10819-909f0ca/llama-prism-b10819-909f0ca-bin-win-sycl-x64.zip",
+    "hash": "122e45310b69dc48307ed690e945a30d24341107b24bf8e0f099b77581e3d7ea",
     "bin": "sycl-ls.exe",
     "checkver": {
         "github": "https://api.github.com/repos/PrismML-Eng/llama.cpp/releases/latest",
