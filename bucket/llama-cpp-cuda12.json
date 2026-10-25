@@ -1,10 +1,10 @@
 {
-    "version": "prism-b10822-bf8c069",
+    "version": "prism-b10826-c9c34bc",
     "description": "llama.cpp - LLM inference in C/C++ (CUDA 12.4, x64)",
     "homepage": "https://github.com/PrismML-Eng/llama.cpp",
     "license": "MIT",
-    "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10822-bf8c069/llama-prism-b10822-bf8c069-bin-win-cuda-12.4-x64.zip",
-    "hash": "301ba8957030e46386917d659f7412e77df899b868ad642f83a1dfb4d91b3a7f",
+    "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10826-c9c34bc/llama-prism-b10826-c9c34bc-bin-win-cuda-12.4-x64.zip",
+    "hash": "d96396b2fc5f0960bf47f8d3298fc45627b1283518f796102056d833a40094fe",
     "bin": [
         "llama-batched-bench.exe",
         "llama-bench.exe",
