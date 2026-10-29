@@ -1,10 +1,10 @@
 {
-    "version": "prism-b10826-c9c34bc",
+    "version": "prism-b10828-a153697",
     "description": "llama.cpp - LLM inference in C/C++ (Vulkan, x64)",
     "homepage": "https://github.com/PrismML-Eng/llama.cpp",
     "license": "MIT",
-    "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10826-c9c34bc/llama-prism-b10826-c9c34bc-bin-win-vulkan-x64.zip",
-    "hash": "f4d923da4c502837f94f0d6a438cf5e862df25ddc29c97ba6b200e9ef6bc16f0",
+    "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10828-a153697/llama-prism-b10828-a153697-bin-win-vulkan-x64.zip",
+    "hash": "a07f03ae262b814558b22d747b46e3add0607947838e0764589be85aa1442461",
     "bin": [
         "llama-batched-bench.exe",
         "llama-bench.exe",
