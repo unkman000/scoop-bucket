@@ -1,0 +1,38 @@
+{
+    "version": "0.1.121",
+    "description": "Cindy desktop client - open-source AI agent",
+    "homepage": "https://github.com/makecindy/cindy",
+    "license": "Apache-2.0",
+    "url": "https://github.com/makecindy/cindy/releases/download/v0.1.121/cindy-0.1.121-win32-x64-global.exe",
+    "hash": "6c8e485e4a200a5d41930dc74c3fbadcf23180bb1d886c3cda3b8a5ff056894b",
+    "depends": "7zip",
+    "installer": {
+        "script": [
+            "$installer = Get-ChildItem \"$dir\\*.exe\" | Select-Object -First 1",
+            "$payloadDir = Join-Path $dir 'payload'",
+            "7z x $installer.FullName \"-o$payloadDir\" -y | Out-Null",
+            "$payload = Join-Path $payloadDir '$PLUGINSDIR\\app-64.7z'",
+            "7z x $payload \"-o$dir\" -y | Out-Null",
+            "Remove-Item $installer.FullName -Force",
+            "Remove-Item $payloadDir -Recurse -Force"
+        ]
+    },
+    "bin": "Cindy.exe",
+    "shortcuts": [
+        [
+            "Cindy.exe",
+            "Cindy"
+        ]
+    ],
+    "checkver": {
+        "github": "https://api.github.com/repos/makecindy/cindy/releases/latest"
+    },
+    "autoupdate": {
+        "url": "https://github.com/makecindy/cindy/releases/download/v$version/cindy-$version-win32-x64-global.exe",
+        "hash": {
+            "url": "https://api.github.com/repos/makecindy/cindy/releases/tags/v$version",
+            "jsonpath": "$.assets[?(@.name =~ /cindy-$version-win32-x64-global\\.exe/)].digest",
+            "regex": "sha256:([a-f0-9]{64})"
+        }
+    }
+}

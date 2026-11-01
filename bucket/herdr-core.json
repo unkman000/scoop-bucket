@@ -1,0 +1,34 @@
+{
+    "version": "0.1.16",
+    "description": "herdr-core (hc) - persistent terminals and coding agents",
+    "homepage": "https://github.com/herdrdev/herdr-core",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://releases.herdr.dev/core/0.1.16/herdr-core-windows-x86_64.zip",
+            "hash": "3535f8db6258bae909a9f29ea15ada9133471a905adb90655838807ee2f49049"
+        }
+    },
+    "bin": [
+        "herdr-core.exe",
+        [
+            "herdr-core.exe",
+            "hc"
+        ]
+    ],
+    "checkver": {
+        "url": "https://releases.herdr.dev/core/latest.json",
+        "jsonpath": "$.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://releases.herdr.dev/core/$version/herdr-core-windows-x86_64.zip",
+                "hash": {
+                    "url": "https://releases.herdr.dev/core/$version/manifest.json",
+                    "jsonpath": "$.targets.windows-x86_64.sha256"
+                }
+            }
+        }
+    }
+}
