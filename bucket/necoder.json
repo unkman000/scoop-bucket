@@ -1,10 +1,10 @@
 {
-    "version": "0.1.34",
+    "version": "0.1.35",
     "description": "necoder - AI coding agent desktop app (Windows x64, portable)",
     "homepage": "https://github.com/iKora128/necoder",
     "license": "AGPL-3.0-only",
-    "url": "https://github.com/iKora128/necoder/releases/download/v0.1.34/necoder-windows-x64.zip",
-    "hash": "81783718d7dffcdcc0c00e26beb011350c9569a5670b9a78677fec769f31ea7c",
+    "url": "https://github.com/iKora128/necoder/releases/download/v0.1.35/necoder-windows-x64.zip",
+    "hash": "c647e9dadbbb205d663502ea7b094cabe59b421dab5603d6d1085fda3226558b",
     "bin": [
         "necoder.exe",
         [
