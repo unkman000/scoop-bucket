@@ -1,10 +1,10 @@
 {
-    "version": "0.1.124",
+    "version": "0.1.125",
     "description": "Cindy desktop client - open-source AI agent",
     "homepage": "https://github.com/makecindy/cindy",
     "license": "Apache-2.0",
-    "url": "https://github.com/makecindy/cindy/releases/download/v0.1.124/cindy-0.1.124-win32-x64-global.exe",
-    "hash": "68428ba78820a00079452451457b9e0ed30bcb63528f135f1208a87b4b53f6ee",
+    "url": "https://github.com/makecindy/cindy/releases/download/v0.1.125/cindy-0.1.125-win32-x64-global.exe",
+    "hash": "70cde673ddebaf3f6aca9727165c39b44b52b0e3f637d187f054c45c1bf91d90",
     "depends": "7zip",
     "installer": {
         "script": [
