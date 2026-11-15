@@ -1,12 +1,12 @@
 {
-    "version": "2026.11.13",
+    "version": "2026.11.15",
     "description": "Janas-LLM tools for CPU, GPU and Intel NPU",
     "homepage": "https://github.com/prabanta-dev/janas",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prabanta-dev/janas/releases/download/v2026.11.13/janas-windows-x86_64.zip",
-            "hash": "5a6d53684d74933588779fea8edbf6ea710d1d469180003fbe1d9af2f0508aca"
+            "url": "https://github.com/prabanta-dev/janas/releases/download/v2026.11.15/janas-windows-x86_64.zip",
+            "hash": "611cd3f83245aa6f034d84bf5fd3d5af5745f127ad387a62dfa0fd30850bd4a5"
         }
     },
     "extract_dir": "janas",
