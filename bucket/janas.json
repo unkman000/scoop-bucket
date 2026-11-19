@@ -15,7 +15,8 @@
         "janas-get.exe",
         "janas-bench.exe",
         "janas-mcp.exe",
-        "janas-server.exe"
+        "janas-server.exe",
+        "brebus.exe"
     ],
     "checkver": {
         "github": "https://api.github.com/repos/prabanta-dev/janas/releases/latest",
