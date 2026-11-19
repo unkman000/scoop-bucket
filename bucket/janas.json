@@ -1,12 +1,12 @@
 {
-    "version": "2026.11.18",
+    "version": "2026.11.19.3",
     "description": "Janas-LLM tools for CPU, GPU and Intel NPU",
     "homepage": "https://github.com/prabanta-dev/janas",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/prabanta-dev/janas/releases/download/v2026.11.18/janas-windows-x86_64.zip",
-            "hash": "240815f610875ad408990d3f37cedf794d3a1788ac9a71133f4cdba025bfac3f"
+            "url": "https://github.com/prabanta-dev/janas/releases/download/v2026.11.19.3/janas-windows-x86_64.zip",
+            "hash": "8b277f44e9dab9b7d999d78f6d79de17026bf543679b37d5e491365ce7b0b34e"
         }
     },
     "extract_dir": "janas",
@@ -19,7 +19,10 @@
         "brebus.exe"
     ],
     "shortcuts": [
-        ["brebus.exe", "Brebus"]
+        [
+            "brebus.exe",
+            "Brebus"
+        ]
     ],
     "checkver": {
         "github": "https://api.github.com/repos/prabanta-dev/janas/releases/latest",
