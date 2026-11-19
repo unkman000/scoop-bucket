@@ -1,24 +1,20 @@
 {
-    "version": "0.1.41",
-    "description": "Strata - desktop environment for local AI model orchestration (CPU)",
+    "version": "0.2.16",
+    "description": "Strata command-line interface and app",
     "homepage": "https://github.com/Niko1221/Strata",
     "license": "MIT",
-    "url": "https://github.com/Niko1221/Strata/releases/download/v0.1.41/strata-windows-x64.zip",
-    "hash": "sha256:3dd7715f4844c0f9d2f28eb5067af0198f386df060c93523cd17e1d65b757f13",
-    "bin": "strata.exe",
-    "shortcuts": [
-        [
-            "strata.exe",
-            "Strata"
-        ]
+    "url": "https://github.com/Niko1221/Strata/releases/download/v0.2.16/Strata-0.2.16-windows-x64-setup.exe",
+    "hash": "sha256:cfb9b3ad37ded1e1b380f6111dfcae4de2db3a4de55b85f211fb01cde69e8101",
+    "bin": [
+        ["Strata-0.2.16-windows-x64-setup.exe", "strata"]
     ],
     "checkver": {
         "github": "https://github.com/Niko1221/Strata"
     },
     "autoupdate": {
-        "url": "https://github.com/Niko1221/Strata/releases/download/v$version/strata-windows-x64.zip",
+        "url": "https://github.com/Niko1221/Strata/releases/download/v$version/Strata-0.2.16-windows-x64-setup.exe",
         "hash": {
-            "url": "https://github.com/Niko1221/Strata/releases/download/v$version/strata-windows-x64.zip",
+            "url": "https://github.com/Niko1221/Strata/releases/download/v$version/Strata-0.2.16-windows-x64-setup.exe",
             "mode": "download"
         }
     }
