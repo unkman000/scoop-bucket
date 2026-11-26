@@ -1,10 +1,10 @@
 {
-    "version": "prism-b12220-41c86f7",
+    "version": "prism-b12232-f702476",
     "description": "llama.cpp - LLM inference in C/C++ (HIP Radeon, x64)",
     "homepage": "https://github.com/PrismML-Eng/llama.cpp",
     "license": "MIT",
-    "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b12220-41c86f7/llama-prism-b12220-41c86f7-bin-win-hip-radeon-x64.zip",
-    "hash": "8ae03cf6a02b0966300e3475ade521a5fa06a74a87bfa2156469e01e64c2aa19",
+    "url": "https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b12232-f702476/llama-prism-b12232-f702476-bin-win-hip-radeon-x64.zip",
+    "hash": "c897c13c16884129a4d89583adf8ef609d45fdc32b023b0392623ae3f5df1ddf",
     "bin": [
         "llama-batched-bench.exe",
         "llama-bench.exe",
