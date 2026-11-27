@@ -1,10 +1,10 @@
 {
-    "version": "0.3.5",
+    "version": "0.3.6",
     "description": "Magnitude CLI - command line frontend for Magnitude inference engine",
     "homepage": "https://github.com/magnitudedev/magnitude",
     "license": "Apache-2.0",
-    "url": "https://github.com/magnitudedev/magnitude/releases/download/%40magnitudedev/cli%400.3.5/magnitude-cli-windows-x64-msvc.tar.gz",
-    "hash": "3c03f11a40ddf94403550fa7f480b08a5c99f93b83128e5a8590cfe5a224db83",
+    "url": "https://github.com/magnitudedev/magnitude/releases/download/%40magnitudedev/cli%400.3.6/magnitude-cli-windows-x64-msvc.tar.gz",
+    "hash": "d143af90e9dc6182e99f33e8b1b8a1befabfe8d9a108c990dcf27137f9c6dd46",
     "bin": "bin/magnitude-cli.exe",
     "checkver": {
         "url": "https://api.github.com/repos/magnitudedev/magnitude/releases/latest",
